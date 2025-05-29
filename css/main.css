@@ -208,3 +208,52 @@ ul li {
     overflow: 24px;
     padding: 60px 24px 10px 24px;
 }
+
+.rodape {
+    background-color: #fdc6ac;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 80px;
+}
+
+.navegacao ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: #263138;
+}
+
+.navegacao ul p {
+    font-weight: bold;
+}
+
+.contatos ul {
+    list-style: none;
+}
+
+.contatos ul p {
+    font-weight: bold;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #FF725E;
+}
+
+.faixa {
+    background-color: #263138;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faixa a {
+    text-decoration: none;
+    color: #FF725E;
+}
