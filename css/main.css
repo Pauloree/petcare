@@ -209,6 +209,12 @@ ul li {
     padding: 60px 24px 10px 24px;
 }
 
+.rodape {
+    background-color: #fdc6ac;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 80px;
+}
 
 .navegacao ul{
     list-style: none;
