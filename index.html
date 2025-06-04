@@ -1,151 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetLife</title>
-
-    <link rel="stylesheet" href="./css/main.css">
-
+    <title>Centro Veterinário Seres | Petz</title>
+    <link rel="stylesheet" href="./Biblioteca/CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="menu">
-        <a href="index.html">
-            <img src="./img/logo-white.svg" alt="Logo PetLife">
-        </a>
+    <header>
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#clinica">Clínica</a>
-            <a href="#farmacia">Farmácia</a>
-            <a href="#duvidas">Dúvida</a>
+            <div class="logo">
+                <img src="./Biblioteca/Imagens/logo_petcare.png" alt="Logo PetCare" class="logo-img">
+            </div>
+            <div class="nav-options">
+                <a href="#agendamento">Agendamento</a>
+                <a href="#emergencia">Emergência</a>
+                <a href="#vacinas">Vacinas</a>
+                <a href="#servicos">Serviços</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" class="icon" title="Favoritos">
+                    <img src="./Biblioteca/Icons/favorito.png" alt="Favoritos">
+                </a>
+                <a href="#" class="icon" title="Carrinho">
+                    <img src="./Biblioteca/Icons/vista-lateral-vazia-do-carrinho-de-compras.png" alt="Carrinho">
+                </a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="inicio">
-            <img src="./img/start-img.svg" alt="ilustraçãode uma mulher cumprimentando um cachorro" width="580" height="580">
-
-            <div>
-                <h1>Cuidados para dar uma vida longa para o seu pet</h1>
-                <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ipsum eum nulla ullam distinctio deserunt, hic ratione accusamus quia debitis illum, magnam, explicabo accusantium soluta. Odio beatae suscipit obcaecati molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab ipsam officia soluta dolore dolorum quae architecto incidunt unde vel? Harum fuga nam doloremque delectus necessitatibus dolore, eligendi mollitia ipsam.
-                </p>
-
-                <a class="botao" href="https://wa.me/5511965427948?text=Olá, preciso de ajuda com meu pet." target="_blank">Marque sua consulta</a>
-                <a class="botao-transparente" href="#clinica">Conheça nossa clínica.</a>
-            </div>
-
-            <img class="absolute" src="./img/shape.svg" alt="Banner decorativo">
-        </section>
-        <section id="clinica">
-            <div class="conteudo-clinica">
-                <h1>Cuidados veterinários de qualidade</h1>
-                <p class="paragrafo2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti illo adipisci reprehenderit. 
-                    Ipsa voluptates culpa vero voluptatem distinctio eos similique quam nulla velit hic libero quibusdam, deleniti dolor odio?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur saepe ducimus expedita dolores quasi reiciendis minus quam perferendis,
-                    eligendi reprehenderit explicabo, inventore libero quidem laborum provident quis, suscipit odio in?
-                </p>
-        
-                <ul>
-                    <li>Consultas e exames de rotina</li>
-                    <li>Vacinação e imunização</li>
-                    <li>Tratamento e controle de doenças</li>
-                    <li>Odontologia veterinária</li>
-                    <li>Atendimento de emergência 24 horas</li>
-                    <li>Nutrição e aconselhamento alimentar personalizado</li>
-                </ul>
-        
-                <a class="botao2" href="https://wa.me/5546194328" target="_blank">Agende sua consulta</a>
-                <a class="botao-transparente2" href="#clinica">Como chegar?</a>
-            </div>
-        
-            <img class="imagem-clinica" src="./img/clinic-img.svg" alt="humana com um pet" width="580" height="580">
-        </section>
-        <section id="farmacia">
-            <div class="conteudo-farmacia">
-                <h1>Venha conferir nosso petshop e farmácia</h1>
-                <img src="./img/shop-img.svg" alt="farmacêutica na farmácia" class="imagem-farmacia">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
-                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                    the leap into electronic typesetting, remaining essentially unchanged.
-                </p>
-            </div>
-        </section>
-        <section id="duvidas">
-            <img src="./img/faq-img.svg" alt="imagem de humana com seu pet" width="540" height="540" loading="lazy">
-            <div>
-                <h2>Ficou alguma dúvida?</h2>
-
-                <div class="duvida">
-                    <h3>Quais serviços são oferecidos pela clínica PetLife?</h3>
-                    <img src="./img/arrow-down.svg" alt="imagem de check">
-                    <p class="paragrafo">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                    </p>
+        <section id="agendamento" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>CENTRO VETERINÁRIO</h1>
+                    <h3>Tudo para manter a saúde do seu pet em dia</h3>
+                    <p>Vacinas, consultas e exames com qualidade e carinho.</p>
+                    <a href="#" class="cta-button">Agendar agora</a>
                 </div>
-
-                <div class="duvida">
-                    <h3>Quais espécies de animais a clínica atende?</h3>
-                    <img src="./img/arrow-down.svg" alt="imagem de check">
-                    <p class="paragrafo">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                    </p>
-                </div>
-
-                <div class="duvida">
-                    <h3>A clínica possui serviço de emergência?</h3>
-                    <img src="./img/arrow-down.svg" alt="imagem de check">
-                    <p class="paragrafo">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                    </p>
-                </div>
-
-                <div class="duvida">
-                    <h3>A clínica oferece serviços de banho e tosa?</h3>
-                    <img src="./img/arrow-down.svg" alt="imagem de check">
-                    <p class="paragrafo">
-                        Lorem Ipsum, is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                    </p>
+                <div class="hero-image">
+                    <img src="./Biblioteca/Imagens/vaccines.jpg" alt="Veterinária com cachorro">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="rodape">
-        <div class="logo-rodape">
-            <a href="index.html">
-                <img src="./img/logo.svg" alt="Logo PetLife">
-            </a>
-        </div>
-        <div class="navegacao">
-            <ul>
-                <li><p>Links rápidos</p></li>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#clinica">Clínica</a></li>
-                <li><a href="#farmacia">Farmácia</a></li>
-                <li><a href="#duvida">Dúvida</a></li>
-            </ul>
-        </div>
-        <div class="contatos">
-            <ul>
-                <li><p>Encontre-nos</p></li>
-                <li>Whatsapp: <a href="https://wa.me/5511965427948?text=Olá, preciso de ajuda com meu pet.">(22) 4444-5555</a></li>
-                <li>Email: <a href="https://mail.google.com">petlife@petlife.com</a></li>
-                <li>Endereço: Rua dos Pets, 1 - Centro - Petlândia</li> 
-            </ul>
-        </div>
-    </footer>
-
-    <div class="faixa">
-            <p>Desenvolvido por PauloRenatoNeves 2023 • <a href="github.com/pauloree">Github</a> <a href="https://www.linkedin.com/in/paulo-renato-n-31558221a/">LinkedIn</a></p>
-    </div>
-
-    <script src='./js/main.js'></script>
 </body>
 </html>
